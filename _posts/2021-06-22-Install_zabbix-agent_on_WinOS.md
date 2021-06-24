@@ -1,3 +1,9 @@
+---
+layout: post
+title: Cài đặt Zabbix-agent trên Window 10
+tags: [Katex, Markdown]
+---
+
 # Cài đặt Zabbix-agent trên Window 10
 
 Bản chất việc cài cũng tương tự trên Linux gổm 2 bước:
