@@ -1,3 +1,9 @@
+---
+layout: post
+title: Hướng dẫn lấy chatid trên Telegram
+tags: [Katex, Markdown]
+---
+
 # Hướng dẫn lấy chatid trên Telegram
 
 ## 1. Hướng dẫn lấy chatid
