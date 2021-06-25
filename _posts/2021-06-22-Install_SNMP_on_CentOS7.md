@@ -1,7 +1,8 @@
 ---
 layout: post
-title: Giám sát sử dung SNMP
+title: Giám sát sử dung SNMP trên CentOS7
 tags: [Katex, Markdown]
+author: quangln
 ---
 # Giám sát sử dung SNMP
 
