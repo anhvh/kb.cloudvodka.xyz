@@ -1,10 +1,7 @@
 ---
 layout: post
-title: Giám sát sử dung SNMP trên CentOS7
+title: Giám sát sử dụng SNMP trên CentOS7
 tags: [Katex, Markdown]
-color: brown
-author: quangln
-excerpt_separator: <!--more-->
 ---
 
 # Giám sát sử dung SNMP
