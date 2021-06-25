@@ -2,7 +2,11 @@
 layout: post
 title: Giám sát sử dung SNMP trên CentOS7
 tags: [Katex, Markdown]
+color: brown
+author: quangln
+excerpt_separator: <!--more-->
 ---
+
 # Giám sát sử dung SNMP
 
 SNMP (Simple Network Manager Protocol) là giao thức rất phổ biến trong môi trường network hiện nay, hầu hết các thiết bị mạng đều hỗ trợ SMNP. Zabbix từ lâu cũng đã tích hợp monitor hệ thống qua giao thức SNMP.
