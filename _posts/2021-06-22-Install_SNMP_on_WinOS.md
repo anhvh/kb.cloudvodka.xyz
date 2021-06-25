@@ -95,7 +95,3 @@ Value: Agent
 <img src=https://i.imgur.com/DEDF8Lo.png>
 
 - Kiểm tra nếu SNMP hiện màu xanh là thành công
-
-# Tài liệu tham khảo
-- https://www.liquidweb.com/kb/how-to-install-and-configure-snmp-on-centos/
-- https://news.cloud365.vn/zabbix-giam-sat-windows-server-su-dung-smnp/

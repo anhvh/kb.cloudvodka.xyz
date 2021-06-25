@@ -2,7 +2,6 @@
 layout: post
 title: Giám sát sử dung SNMP trên CentOS7
 tags: [Katex, Markdown]
-author: quangln
 ---
 # Giám sát sử dung SNMP
 
@@ -57,5 +56,3 @@ firewall-cmd --reload
 systemctl enable snmpd
 systemctl restart snmpd
 ```
-## Tài liệu tham khảo
-- https://github.com/domanhduy/zabbix-monitor/blob/master/Add%20host%20s%E1%BB%AD%20d%E1%BB%A5ng%20SNMP.md
