@@ -12,7 +12,7 @@ tags: [Katex, Markdown]
 
 - Truy cập vào đường link sau: https://telegram.me/myidbot => Chọn ***Send Message***
 
-<img src=https://i.imgur.com/rFUPSfy.png>
+![](/images/img-telegram/Screenshot_001.png)
 
 - Nhập vào đoàn sau để lấy `chatid`:
 
