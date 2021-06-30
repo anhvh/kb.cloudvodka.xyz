@@ -22,13 +22,13 @@ tags: [Katex, Markdown]
 
 Kết quả trả về như sau:
 
-<img src=https://i.imgur.com/yINN4RA.png>
+![](/images/img-telegram/Screenshot_002.png)
 
 ## 2. Hướng dẫn lấy groupid
 
 Tạo Group Telegram thực hiện add Bot Telegram gửi cảnh bảo và những user nhận cảnh bảo vào Group. Thực hiện add Bot` @myidbot` để lấy `groupid`
 
-<img src=https://i.imgur.com/eIyEt0q.png>
+![](/images/img-telegram/Screenshot_003.png)
 
 Thực hiện lấy `groupid` như sau: Nhập vào đoàn sau để lấy `groupid`:
 ```sh
@@ -36,4 +36,4 @@ Thực hiện lấy `groupid` như sau: Nhập vào đoàn sau để lấy `grou
 ```
 Kết quả trả về như sau:
 
-<img src=https://i.imgur.com/KpVFLEV.png>
+![](/images/img-telegram/Screenshot_004.png)

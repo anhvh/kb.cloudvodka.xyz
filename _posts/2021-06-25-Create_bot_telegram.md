@@ -13,22 +13,22 @@ tags: [Katex, Markdown]
 
 Để tạo bot bạn click https://telegram.me/BotFather. Tiếp theo click vào `SEND MESSAGE`.
 
-<img src=https://i.imgur.com/BGuj7iz.png>
+![](/images/img-telegram/Screenshot_005.png)
 
 Màn hình hiện ra, tiến hành tạo Bot telegram như hướng dẫn sau:
 
-<img src=https://i.imgur.com/cvK73Ws.png>
+![](/images/img-telegram/Screenshot_006.png)
 
 ```sh
 /newbot
 ```
 Đặt tên cho Bot telegram. Giả sử tên của Bot là: `petcuatoi`
 
-<img src=https://i.imgur.com/rfkJQj5.png>
+![](/images/img-telegram/Screenshot_007.png)
 
 Đặt username cho Bot telegram. Giả sử username của Bot là: `petcuatoi_bot`. Lưu ý username phải là chữ thường và phải được kết thúc bằng `bot` ví dụ: `petcuatoi_bot`
 
-<img src=https://i.imgur.com/MdK9FaP.png>
+![](/images/img-telegram/Screenshot_008.png)
 
 Sau khi tạo xong kết quả sẽ trả về một chuỗi các ký tự. Nó là token của bot. Ví dụ dãy token sẽ là
 ```sh
@@ -43,7 +43,7 @@ Sau khi tạo xong kết quả sẽ trả về một chuỗi các ký tự. Nó 
 
 Tìm kiếm Bot vừa tạo băng username tạo ở trên -> Chọn Start để gửi tin nhắn. Hoặc truy cập vào đường link sau để gửi tin nhắn `https://telegram.me/petcuatoi_bot`
 
-<img src=https://i.imgur.com/z7wWHaj.png>
+![](/images/img-telegram/Screenshot_009.png)
 
 Truy cập vào địa chỉ sau để lấy ID Chat. Trong đó `$TOKEN` là dãy token của Bot đã tạo ở trên
 
@@ -53,11 +53,11 @@ Ví dụ với TOKEN trên sẽ là: `https://api.telegram.org/bot1650963056:AAE
 
 Gửi tin nhắn
 
-<img src=https://i.imgur.com/WArJCRl.png>
+![](/images/img-telegram/Screenshot_010.png)
 
 Thực hiện F5 lại đường dẫn trên, kết quả trả về như sau:
 
-<img src=https://i.imgur.com/UutTozP.png>
+![](/images/img-telegram/Screenshot_011.png)
 
 Trong đó:
 - 645542801: ID Chat. ID này sẽ lưu lại để nhập vào thông tin nhận cảnh báo.
