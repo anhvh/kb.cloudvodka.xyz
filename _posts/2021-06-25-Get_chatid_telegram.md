@@ -26,7 +26,7 @@ Kết quả trả về như sau:
 
 ## 2. Hướng dẫn lấy groupid
 
-Tạo Group Telegram thực hiện add Bot Telegram gửi cảnh bảo và những user nhận cảnh bảo vào Group. Thực hiện add Bot` @myidbot` để lấy `groupid`
+Tạo Group Telegram thực hiện add Bot Telegram gửi cảnh bảo và những user nhận cảnh bảo vào Group. Thực hiện add Bot `@myidbot` để lấy `groupid`
 
 ![](/images/img-telegram/Screenshot_003.png)
 

@@ -19,23 +19,23 @@ Mặc định trên Windows Server đã có sẵn SNMP service, ta cần làm th
 
 - Bật Server Manager 
 
-<img src=https://i.imgur.com/KtW7eze.png>
+![](/images/img-zabbix/Screenshot_001.png)
 
 - Chọn Add roles and features
 
-<img src=https://i.imgur.com/ReuKnLW.png>
+![](/images/img-zabbix/Screenshot_002.png)
 
 - Tìm tính năng SNMP sau đó tích vào ô SNMP Service sau đó ấn Next
 
-<img src=https://i.imgur.com/3yVi5IU.png>
+![](/images/img-zabbix/Screenshot_003.png)
 
 - Thực hiện cài đặt SNMP và kiểm tra quá trình cài đặt
 
-<img src=https://i.imgur.com/0xjLj2s.png>
+![](/images/img-zabbix/Screenshot_004.png)
 
 - Kiểm tra xem services đã chạy chưa. Bật cmd của windown, thực hiện lệnh: `services.mcs` tìm dịch vụ SNMP.
 
-<img src=https://i.imgur.com/BAiqTEg.png>
+![](/images/img-zabbix/Screenshot_005.png)
 
 Dịch vụ đã cài thành công
 
@@ -43,15 +43,15 @@ Dịch vụ đã cài thành công
 
 Click chuột phải chọn Properties. Trong tab Agent tích hết các mục sau và điền thông tin cần thiết và chọn Apply
 
-<img src=https://i.imgur.com/7kOOaka.png>
+![](/images/img-zabbix/Screenshot_006.png)
 
 Trong tab Security cho phép một số connection đến Windows Server thông qua SNMP, sau đó Add và Apply thay đổi
 
-<img src=https://i.imgur.com/Eq81r4i.png>
+![](/images/img-zabbix/Screenshot_007.png)
 
 Vẫn là tab Security chọn tiếp Accept SNMP packages from any hosts
 
-<img src=https://i.imgur.com/mzB87j5.png>
+![](/images/img-zabbix/Screenshot_008.png)
 
 
 Bước 6: Trên Zabbix Server kiểm tra quá trình cài đặt
@@ -81,17 +81,17 @@ SNMPv2-MIB::sysServices.0 = INTEGER: 79
 
 - Trong màn Create Host, điền tối thiểu các thông số của host như sau
 
-<img src=https://i.imgur.com/nQkdrCk.png>
+![](/images/img-zabbix/Screenshot_009.png)
 
 - Chọn Template. Chọn Template OS Windows SNMPv2 sau đó Select
 
-<img src=https://i.imgur.com/M4Ir82P.png>
+![](/images/img-zabbix/Screenshot_010.png)
 
 
 - Trong tab Macros chọn như sau sau đó chọn Add
 Macros: {$SNMP_COMMUNITY}
 Value: Agent
 
-<img src=https://i.imgur.com/DEDF8Lo.png>
+![](/images/img-zabbix/Screenshot_011.png)
 
 - Kiểm tra nếu SNMP hiện màu xanh là thành công
